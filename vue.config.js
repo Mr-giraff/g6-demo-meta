@@ -20,4 +20,7 @@ module.exports = {
 
     config.devtool("source-map");
   },
+  devServer: {
+    port: 8082,
+  },
 };
