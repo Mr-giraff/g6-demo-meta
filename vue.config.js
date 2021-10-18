@@ -21,6 +21,8 @@ module.exports = {
     config.devtool("source-map");
   },
   devServer: {
+    hot: true,
+    hotOnly: true, //只有热更新不会刷新页面
     port: 8082,
   },
 };
